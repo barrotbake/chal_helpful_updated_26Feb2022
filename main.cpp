@@ -29,9 +29,9 @@ int main(int argc, const char* argv[]) {
   switch(choice) { 
     case 1:  challenge_1();  break;
     case 2:  challenge_2();  break;
-    case 3:  challenge_3();  break;
-    case 4:  challenge_4();  break;
-    case 5:  challenge_5();  break;
+    // case 3:  challenge_3();  break;
+    // case 4:  challenge_4();  break;
+    // case 5:  challenge_5();  break;
     default: std::cerr << "Error -- choice " << choice << "not recognized\n";  break;
   } 
 
